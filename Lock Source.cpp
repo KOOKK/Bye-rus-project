@@ -61,7 +61,7 @@ int padding(char fname[])
 	fp = fopen(fname, "ab");
 	if (!fp)
 	{
-		fprintf(stderr, "¿¡·¯ ¹ß»ı.\n");
+		fprintf(stderr, "ì—ëŸ¬ ë°œìƒ.\n");
 		return 1;
 	}
 	else
@@ -127,7 +127,7 @@ char SearchDirectory(char *parm_search_path)
 					strcat(temp, search_path);
 					strcat(temp, file_data.cFileName);
 					strcat(temp, "\\");
-					//ÇÏÀ§ µğ·ºÅä¸® Å½»ö
+					//í•˜ìœ„ ë””ë ‰í† ë¦¬ íƒìƒ‰
 					printf("[DIR]: %s%s\n", search_path, file_data.cFileName);
 					SearchDirectory(temp);
 				}
