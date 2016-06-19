@@ -50,7 +50,7 @@ int padding(char fname[])
 	fp = fopen(fname, "ab");
 	if (!fp)
 	{
-		fprintf(stderr, "¿¡·¯ ¹ß»ý.\n");
+		fprintf(stderr, "Â¿Â¡Â·Â¯ Â¹ÃŸÂ»Ã½.\n");
 		return 1;
 	}
 	else
